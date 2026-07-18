@@ -51,11 +51,11 @@ async def upload_document(file: UploadFile = File(...)):
 
         # Store in ChromaDB
         add_documents(
-            ids=ids,
-            documents=chunks,
-            embeddings=embeddings.tolist(),
-            metadatas=metadatas
-        )
+    ids=ids,
+    documents=chunks,
+    embeddings=embeddings,
+    metadatas=metadatas
+)
 
         print("STEP 3")
 
