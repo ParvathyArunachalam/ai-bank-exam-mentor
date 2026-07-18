@@ -1,0 +1,39 @@
+v.result-page{
+
+    padding:40px;
+
+}
+
+.result-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.score{
+
+    font-size:70px;
+
+    color:#2563EB;
+
+    font-weight:bold;
+
+}
+
+.review-card{
+
+    margin-top:25px;
+
+    background:#F8FAFC;
+
+    padding:20px;
+
+    border-radius:15px;
+
+}

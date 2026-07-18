@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    background:#F5F7FB;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.app{
+    display:flex;
+}
+
+.main-content{
+
+    margin-left:260px;
+
+    min-height:100vh;
+
+    background:#F5F7FB;
+
+    padding:25px;
+
+    box-sizing:border-box;
+
+}
+
+.page-title{
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:#1E293B;
+
+    margin-bottom:25px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:24px;
+
+    box-shadow:0 4px 18px rgba(0,0,0,.08);
+
+}

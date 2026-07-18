@@ -1,0 +1,31 @@
+.recommendation-page{
+
+    padding:35px;
+
+}
+
+.recommend-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.recommend-card h2{
+
+    color:#2563EB;
+
+    margin-bottom:20px;
+
+}
+
+.recommend-card li{
+
+    margin-bottom:12px;
+
+}

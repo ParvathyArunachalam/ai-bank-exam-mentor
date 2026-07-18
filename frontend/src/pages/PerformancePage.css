@@ -1,0 +1,33 @@
+.performance-page{
+
+    padding:35px;
+
+}
+
+.analysis-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    margin-bottom:20px;
+
+}
+
+.analysis-card h2{
+
+    color:#2563EB;
+
+    margin-bottom:15px;
+
+}
+
+.analysis-card ul{
+
+    padding-left:25px;
+
+}

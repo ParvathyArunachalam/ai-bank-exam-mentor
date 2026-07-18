@@ -1,0 +1,83 @@
+.docs-page {
+
+  padding:40px;
+
+}
+
+.docs-page h1{
+
+  color:#1E293B;
+
+  margin-bottom:30px;
+
+}
+
+.docs-grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+
+  gap:25px;
+
+}
+
+.doc-card{
+
+  background:white;
+
+  border-radius:18px;
+
+  padding:25px;
+
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.pdf-icon{
+
+  font-size:55px;
+
+}
+
+.doc-card h3{
+
+  color:#1E293B;
+
+  margin:15px 0;
+
+}
+
+.doc-card p{
+
+  color:#64748B;
+
+  margin:8px 0;
+
+}
+
+.doc-card button{
+
+  width:100%;
+
+  margin-top:20px;
+
+  padding:14px;
+
+  background:#2563EB;
+
+  color:white;
+
+  border:none;
+
+  border-radius:10px;
+
+  cursor:pointer;
+
+}
+
+.doc-card button:hover{
+
+  background:#1D4ED8;
+
+}

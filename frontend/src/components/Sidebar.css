@@ -1,0 +1,151 @@
+.sidebar{
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    width:260px;
+
+    height:100vh;
+
+    background:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    border-right:1px solid #E5E7EB;
+
+    box-shadow:4px 0 15px rgba(0,0,0,.05);
+
+}
+
+.logo{
+
+    padding:30px;
+
+    font-size:30px;
+
+    font-weight:700;
+
+    color:#2563EB;
+
+}
+
+.logo span{
+
+    margin-left:10px;
+
+}
+
+.menu{
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:10px 20px;
+
+    gap:8px;
+
+}
+
+.menu a{
+
+    text-decoration:none;
+
+    color:#475569;
+
+    padding:15px 18px;
+
+    border-radius:12px;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.menu a:hover{
+
+    background:#EFF6FF;
+
+    color:#2563EB;
+
+}
+
+.menu .active{
+
+    background:#2563EB;
+
+    color:white;
+
+}
+
+.sidebar-footer{
+
+    padding:25px;
+
+}
+
+.user-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    background:#F8FAFC;
+
+    padding:15px;
+
+    border-radius:15px;
+
+}
+
+.user-avatar{
+
+    width:48px;
+
+    height:48px;
+
+    border-radius:50%;
+
+    background:#2563EB;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+}
+
+.user-card h4{
+
+    margin:0;
+
+    color:#1E293B;
+
+}
+
+.user-card p{
+
+    margin-top:5px;
+
+    color:#64748B;
+
+    font-size:13px;
+
+}
